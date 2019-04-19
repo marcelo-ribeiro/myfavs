@@ -67,9 +67,7 @@ app.controller( 'LoginController', function ( $scope ) {
 } );
 
 
-app.controller( 'HomeController', function ( $rootScope, $scope, $http, $firebaseArray, currentAuth ) {
-  console.log( $rootScope.user );
-
+app.controller( 'HomeController', function ( $rootScope, $scope, $http, $firebaseArray ) {
   var ref = firebase.database().ref().child( $rootScope.user.uid );
 
   $scope.favPrefix = 'http://www.google.com/s2/favicons?domain=';
