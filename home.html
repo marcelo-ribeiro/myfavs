@@ -14,15 +14,15 @@
   <button type="submit">Ok</button>
 </form>
 
-<ol class="list" ng-if="sites">
+<ol class="list" ng-show="sites">
   <li class="list--item" ng-repeat="site in sites | orderBy:'-clicks' track by $index">
     <a class="list--link" ng-click="openSite(site)" title="{{site.url}}">
       <img class="list--icon" src="{{favPrefix}}{{getDomain(site.url)}}" alt="my-favs">
       <span class="list--name">{{site.name}}</span>
     </a>
 
-    <button class="list--button" type="button" ng-click="removeSite(site)">
+    <!-- <button class="list--button" type="button" ng-click="removeSite(site)">
       <b class="icon">&times;</b>
-    </button>
+    </button> -->
   </li>
 </ol>
