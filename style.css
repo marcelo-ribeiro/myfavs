@@ -118,7 +118,7 @@ hr {
 }
 
 .form__register {
-  display: none;
+  display: flex;
 }
 
 .avatar {
