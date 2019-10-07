@@ -3,6 +3,7 @@
   &:before,
   &:after {
     box-sizing: border-box;
+    line-height: calc(1em + 0.5rem);
   }
 }
 
@@ -38,8 +39,7 @@ hr {
 }
 
 h1 {
-  font-size: 1.75rem;
-  line-height: 2.25rem;
+  font-size: 2rem;
   font-weight: 700;
 }
 
