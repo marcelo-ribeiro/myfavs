@@ -4,7 +4,7 @@ app.config( function ( $stateProvider, $urlRouterProvider ) {
     .state( 'app', {
       url: '/app',
       abstract: true,
-      template: '<ui-view class="layout"/>',
+      template: '<ui-view/>',
       controller: 'ApplicationController as appCtrl'
     } )
 

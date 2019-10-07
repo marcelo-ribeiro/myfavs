@@ -60,10 +60,10 @@ button,
   position: relative;
   display: flex;
   align-items: center;
-  height: 2.75rem;
+  height: 2.5rem;
+  padding: 0 1rem;
   background: #fff;
   border: 2px solid #e3e5e8;
-  padding: 0 1rem;
   border-radius: 2em;
   transition: 200ms ease-out;
 }
@@ -151,17 +151,16 @@ hr {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  margin: -0.75rem;
   padding: 0;
-  margin-left: -0.75rem;
-  margin-right: -0.75rem;
   list-style-type: none;
+  overflow: hidden;
 }
 
 .list--item {
   position: relative;
-  margin-bottom: 1.5rem;
-  margin-left: 0.75rem;
-  margin-right: 0.75rem;
+  margin: 0;
+  padding: 0.75rem;
 }
 
 .list--link {
