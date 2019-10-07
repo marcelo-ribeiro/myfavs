@@ -12,7 +12,7 @@ html {
 
 body {
   width: 100%;
-  max-width: 880px;
+  max-width: 960px;
   margin: 0 auto;
   padding: 4rem;
   color: rgba(#000, 0.8);
@@ -171,6 +171,7 @@ hr {
   padding: 0 1rem;
   line-height: 1;
   color: rgba(#000, 0.5);
+  font-size: 0.875rem;
   font-weight: 500;
   background: hsl(220, 10%, 95%);
   border: none;
