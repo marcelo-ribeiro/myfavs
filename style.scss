@@ -1,5 +1,4 @@
 * {
-
   &,
   &:before,
   &:after {
@@ -19,6 +18,9 @@ body {
   color: rgba(#000, 0.8);
   user-select: none;
   cursor: default;
+  text-size-adjust: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
 }
 
 h1,
@@ -36,8 +38,8 @@ hr {
 }
 
 h1 {
-  font-size: 2rem;
-  line-height: 2.5rem;
+  font-size: 1.75rem;
+  line-height: 2.25rem;
   font-weight: 700;
 }
 
@@ -109,7 +111,7 @@ hr {
 
 .layout--header {
   display: flex;
-  // justify-content: space-between;
+  justify-content: center;
   align-items: center;
   margin-bottom: 4rem;
 
@@ -152,18 +154,16 @@ hr {
   justify-content: center;
   flex-wrap: wrap;
   padding: 0;
-  margin-left: -0.5rem;
-  margin-right: -0.5rem;
+  margin-left: -0.75rem;
+  margin-right: -0.75rem;
   list-style-type: none;
 }
 
 .list--item {
   position: relative;
-  // width: 100%;
-  // max-width: calc(100% / 3 - 1rem);
-  margin-bottom: 1rem;
-  margin-left: 0.5rem;
-  margin-right: 0.5rem;
+  margin-bottom: 2rem;
+  margin-left: 0.75rem;
+  margin-right: 0.75rem;
 }
 
 .list--link {
@@ -172,6 +172,8 @@ hr {
   line-height: 1;
   color: rgba(#000, 0.5);
   font-weight: 500;
+  background: hsl(220, 10%, 95%);
+  border: none;
 }
 
 .list--icon {

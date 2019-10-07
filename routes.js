@@ -1,5 +1,5 @@
 app.config( function ( $stateProvider, $urlRouterProvider ) {
-  $urlRouterProvider.otherwise( 'app/login' );
+  $urlRouterProvider.otherwise( 'app/home' );
   $stateProvider
     .state( 'app', {
       url: '/app',
