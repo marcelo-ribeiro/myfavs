@@ -9,13 +9,15 @@
 
 html {
   font: 16px/1.5 'Nunito', sans-serif;
+  height: 100%;
 }
 
 body {
   width: 100%;
   max-width: 960px;
+  min-height: 100%;
   margin: 0 auto;
-  padding: 4rem;
+  padding: 10vh 5vw;
   color: rgba(#000, 0.8);
   user-select: none;
   cursor: default;
@@ -119,7 +121,7 @@ hr {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 4rem;
+  margin-bottom: 10vh;
 
   h1 {
     margin: 0;
